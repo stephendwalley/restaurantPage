@@ -1,0 +1,13 @@
+body {
+	font: 62.5%/1.5 "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif;
+	color: #000000;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.list {
+	list-style-type: none;
+	font-size: 12px;
+	padding: 2px;
+}

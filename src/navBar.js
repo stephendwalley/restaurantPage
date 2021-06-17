@@ -1,8 +1,12 @@
+import './style.css'
+
 const navBar = () => {
 	//Tabbed Options;
     const NAV_BAR = document.getElementById("navBar")
 
 	const TABBED_OPTIONS = document.createElement("ul");
+	TABBED_OPTIONS.classList.add("list")
+
 	const HOME = document.createElement("li");
 	HOME.id = "homeBtn";
 	HOME.innerHTML = "HOME";
